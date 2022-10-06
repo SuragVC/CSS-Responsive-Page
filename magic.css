@@ -1,0 +1,109 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav {
+    border: solid black;
+    display: flex;
+    justify-content: flex-end;
+    background-color: none;
+    z-index: 9999;
+    position: relative;
+}
+
+#nav>div:nth-child(2) {
+    display: flex;
+    border: solid red;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    border: solid red;
+}
+
+.bgcolor {
+    background-color: #F5E3D7;
+}
+
+#home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.pforname {
+    font-size: x-large;
+}
+
+.getstarted {
+    border: solid black;
+    border-radius: 35%;
+    width: 90px;
+    height: 30px;
+    font-size: 9px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#project>div:nth-child(1) {
+    grid-area: A;
+    border: solid yellow;
+}
+
+#project>div:nth-child(2) {
+    grid-area: B;
+}
+
+#project>div:nth-child(3) {
+    grid-area: C;
+}
+
+#project>div:nth-child(4) {
+    grid-area: D;
+}
+
+#project>div:nth-child(5) {
+    grid-area: E;
+}
+
+#project>div:nth-child(6) {
+    grid-area: F;
+}
+
+#project>div:nth-child(7) {
+    grid-area: G;
+}
+
+#project>div:nth-child(8) {
+    grid-area: H;
+}
+
+#project>div:nth-child(9) {
+    grid-area: I;
+}
+
+#project>div:nth-child(10) {
+    grid-area: J;
+}
+
+#project {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: "A A B C" "C C D D" "E F G H" "I J";
+}
+
+#project div {
+    height: 200px;
+    width: 200px;
+}
+
+#manimg img {
+    width: 100px;
+    height: 100px;
+}
